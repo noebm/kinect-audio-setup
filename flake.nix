@@ -60,5 +60,9 @@
 
       default = udev-rules;
     };
+
+    nixosModules.default = {system, ...}: {
+      services.udev.packages = [self.packages."${system}".default];
+    };
   };
 }
