@@ -40,7 +40,7 @@
 #include "endian.h"
 
 #define KINECT_AUDIO_VID           0x045e
-#define KINECT_AUDIO_PID           0x02ad
+#define KINECT_AUDIO_PID           0x02be
 #define KINECT_AUDIO_CONFIGURATION 1
 #define KINECT_AUDIO_INTERFACE     0
 #define KINECT_AUDIO_IN_EP         0x81
