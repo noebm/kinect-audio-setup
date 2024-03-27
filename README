@@ -1,3 +1,14 @@
+## Note
+
+This is a fork from [this](https://git.ao2.it/kinect-audio-setup.git/).
+
+### The following changes have been made
+
+- Patched device id for a kinect for windows version 1517.
+- Added a nix flake.
+
+## Readme
+
 kinect-audio-setup makes audio input from the Microsoft Kinect Sensor
 device work on GNU/Linux systems.
 
